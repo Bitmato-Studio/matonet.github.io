@@ -1,4 +1,15 @@
 # Welcome to the P2P Game Settlement App for Solana
+<div id="header" style="margin-bottom: 20px;">
+  <a href="home-link-here" style="margin-right: 15px;">Home</a>
+  <a href="about-link-here" style="margin-right: 15px;">About Us</a>
+  <a href="contact-link-here">Contact</a>
+</div>
+
+# Welcome to the P2P Game Settlement App for Solana
+
+...
+
+
 
 Experience the future of gaming with our P2P Game Settlement App, designed to harness the power of the Solana blockchain to provide you with swift, secure, and seamless in-game transactions.
 
