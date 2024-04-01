@@ -1,0 +1,12 @@
+/your-project-name
+    ├── index.html    # Home page
+    ├── download.html # Download page
+    ├── about.html    # About page
+    ├── css/
+    │   └── custom.css # (Optional) Custom styles that extend Tailwind
+    ├── js/
+    │   └── script.js  # (Optional) JavaScript file for any dynamic features
+    └── images/
+        └── logo.png  # Images used on your website
+
+        
