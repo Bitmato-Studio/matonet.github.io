@@ -3,32 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Software Name</title>
+    <title>MatoNet</title>
     <!-- Include Tailwind CSS from CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100">
+<body class="bg-[#1d1d1d]">
 
     <!-- Navigation -->
-    <nav class="bg-gray-800 text-white p-4">
+    <nav class="bg-[#1d1d1d] text-white p-4">
         <div class="container mx-auto flex justify-between items-center">
-            <a href="index.html" class="text-xl font-semibold">Your Software</a>
+            <a href="index.html" class="inline-flex items-center font-semibold text-xl no-underline hover:no-underline">
+                <img src="../images/matonettext.png" alt="Matonet" class="h-12 sm:h-12 mr-2">
+                <!-- Text next to logo (if needed)
+                <span class="logotext">Matonet</span>
+                -->
+              </a>
+              
+
             <div>
                 <ul class="flex space-x-4">
                     <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
                     <li><a href="download.html" class="hover:text-gray-300">Download</a></li>
-                    <li><a href="about.html" class="hover:text-gray-300">About</a></li>
+                    <li><a href="about.html" class="hover:text-gray-300">Wiki</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <section>
+        <style>
+            body {
+                font-family: 'Inter', sans-serif;
+            }
+            /* .hero-section {
+                background: linear-gradient(180deg, #1d1d1d ,#292929);
+            } */
+            .btn-get-started {
+                transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+            }
+            .btn-get-started:hover {
+                background-color: #000;
+                color: #fff;
+                transform: translateY(-2px);
+            }
+        </style>
+    </head>
+    <body class="antialiased text-[#8e8e8e]">
+        <section class="hero-section mt-20 flex items-center justify-center">
+            <div class="text-center px-4 sm:px-6 lg:px-8">
+                <div class=" max-w-xs sm:max-w-sm md:max-w-sm lg:max-w-lg xl:max-w-xl">
+                  <img class="mx-auto w-30 h-auto" src="../images/matonetplayer.png" alt="Matonet Logo">
+              
+                <p class="text-3xl font-semibold mb-6 text-gray-300 ">CHALLENGE FRIENDS,<br>EARN SOLANA</p>
+                <p class="text-xl font-medium mb-8 bg-white uppercase tracking-widest">Spend better time together</p>
+                <p class="mb-10 text-[#8e8e8e]">With MatoNet, we allow you to chat with your squad and play meaningful games together. Party leaders can incentivize groups with Solana Tokens, and NFTs.</p>
+                <button class="btn-get-started py-3 px-6 bg-[#e52042] text-white font-semibold rounded-md shadow-lg focus:outline-none focus:ring-2 focus:ring-red-700 focus:ring-opacity-50">
+                    Download Now
+                </button>
+            </div>
+        </section>
+    </section>
     <!-- Hero Section -->
     <section class="text-center p-20">
         <h1 class="text-5xl font-bold text-gray-800">Welcome to Our Software</h1>
         <p class="text-xl mt-4 text-gray-600">This is a brief introduction to what our software does and why it's awesome.</p>
-        <a href="download.html" class="mt-8 inline-block bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition duration-300">Download Now</a>
+        <a href="download.html" class="mt-8 inline-block bg-red-500 text-white font-bold py-2 px-4 rounded hover:bg-red-700 transition duration-300">Download Now</a>
     </section>
-
+    <section>
+        <body class="bg-[#1d1d1d]">
+            <div class="max-w-2xl mx-auto my-10">
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <h2 class="text-center text-3xl font-bold mb-6">MatoNet Download</h2>
+    <p class="text-center mb-8">matonet.version1.2</p>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#" class="flex items-center px-6 py-2 bg-gray-200 rounded-full hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50">
+                            <img src="..//images/windows.png" alt="Windows" class="h-7 w-7 mr-2 ">
+                            <span class="text-gray-700">Windows</span>
+                        </a>
+                        <a href="#" class="flex items-center px-6 py-2 bg-gray-200 rounded-full hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50">
+                            <img src="..//images/linux.png" alt="apple" class="h-7 w-7 mr-2 ">
+                            <span class="text-gray-700">Linux</span>
+                        </a>
+                        <a href="#" class="flex items-center px-6 py-2 bg-gray-200 rounded-full hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50">
+                            <img src="..//images/apple.png" alt="apple" class="h-7 w-7 mr-2 ">
+                            <span class="text-gray-700">Mac</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
 </body>
+<style>
+    .icon-bg {
+      background-color: #f3f4f6; /* Light gray background */
+      border-radius: 0.5rem; /* Rounded corners */
+      transition: transform 0.2s; /* Smooth transition for hover effect */
+    }
+  
+    /* Hover effect - scale the image */
+    .icon-bg:hover {
+      transform: scale(1.05);
+    }
+  </style>
+  </head>
+  <body class="bg-gray-500 text-gray-800">
+  <div class="flex justify-center space-x-4 p-4">
+      <!-- Home Icon -->
+      <div class="icon-bg p-2">
+          <img src="../images/discord.png" alt="Home" class="h-12 w-12 hover:opacity-50">
+      </div>
+      <!-- Close Icon -->
+      <div class="icon-bg p-2">
+          <img src="../images/telegram.png" alt="Close" class="h-12 w-12 hover:opacity-50">
+      </div>
+      <!-- Menu Icon -->
+      <div class="icon-bg p-2">
+          <img src="../images/x.png" alt="Menu" class="h-12 w-12 hover:opacity-50">
+      </div>
+      <!-- Search Icon -->
+      <div class="icon-bg bg-gray-400 p-2">
+          <img src="../images/solana.png" alt="Search" class="h-12 w-12 hover:opacity-75">
+      </div>
+      <!-- Send Icon -->
+      <div class="icon-bg p-2">
+          <img src="../images/telegram.png" alt="Send" class="h-12 w-12 hover:opacity-50">
+      </div>
+      <!-- Play Icon -->
+      <div class="icon-bg p-2">
+          <img src="../images/youtube.png" alt="Play" class="h-12 w-12 hover:opacity-75">
+      </div>
+  </div>
+  <div class="bg-red-600 text-white py-8 px-4">
+    <h2 class="text-center text-3xl font-bold mb-6">MatoNet Desktop</h2>
+    <p class="text-center mb-8">matonet.version1.2</p>
+    <div class="flex justify-center gap-4">
+      <!-- Windows Download Button -->
+      <a href="/downloads/windows" class="bg-black bg-opacity-20 hover:bg-opacity-40 rounded-full px-6 py-2 flex items-center space-x-2">
+        <img src="/path/to/windows-logo.png" alt="Windows" class="h-6 w-6">
+        <span>windows</span>
+      </a>
+      <!-- Linux Download Button -->
+      <a href="/downloads/linux" class="bg-black bg-opacity-20 hover:bg-opacity-40 rounded-full px-6 py-2 flex items-center space-x-2">
+        <img src="images/.png" alt="Linux" class="h-6 w-6">
+        <span>linux</span>
+      </a>
+      <!-- macOS Download Button -->
+      <a href="/downloads/macos" class="bg-black bg-opacity-20 hover:bg-opacity-40 rounded-full px-6 py-2 flex items-center space-x-2">
+        <img src="/path/to/macos-logo.png" alt="macOS" class="h-6 w-6">
+        <span>macos</span>
+      </a>
+    </div>
+  </div>
 </html>

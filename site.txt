@@ -9,4 +9,4 @@
     └── images/
         └── logo.png  # Images used on your website
 
-        
+        npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch
