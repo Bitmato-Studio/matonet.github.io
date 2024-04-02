@@ -9,7 +9,38 @@
 </head>
 <body class="bg-[#1d1d1d]">
 
+
+    <style>
+        .linktext {
+            font-family: 'Mate SC', serif;
+        }
+        .custom-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            padding: 8px 16px;
+            border-radius: 9999px;
+            text-decoration: none;
+            color: black;
+            font-size: 1rem;
+            gap: 8px;
+        }
+    </style>
+    <section class="bg-[#2e2e2e]">
+    <div class="linktext text-gray-00">
+    <div class="flex justify-center items-center h-12">
+        <a href="#" class="custom-link">
+            <span >🏛️</span>
+            <span class="text-gray-200">Solana Renaissance Hackathon Project</span>
+        </a>
+    </div>
+</section>
+
+
+
     <!-- Navigation -->
+    <!-- main gray color  -->
     <nav class="bg-[#1d1d1d] text-white p-4">
         <div class="container mx-auto flex justify-between items-center">
             <a href="index.html" class="inline-flex items-center font-semibold text-xl no-underline hover:no-underline">
@@ -22,8 +53,9 @@
 
             <div>
                 <ul class="flex space-x-4">
-                    <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
                     <li><a href="download.html" class="hover:text-gray-300">Download</a></li>
+                    <li><a href="index.html" class="hover:text-gray-300">Games</a></li>
+                    <li><a href="features.html" class="hover:text   -gray-300">Features</a></li>
                     <li><a href="about.html" class="hover:text-gray-300">Wiki</a></li>
                 </ul>
             </div>
@@ -67,20 +99,21 @@
    
     <section>
         <body class="bg-[#1d1d1d]">
-            <div class="max-w-2xl mx-auto my-10">
-                <div class="bg-white shadow-lg rounded-lg p-6">
-                    <h2 class="text-center text-3xl font-bold mb-6">MatoNet Download</h2>
+            <div class="max-w-xl mx-auto my-10">
+                <div class="bg-gray-300 shadow-lg rounded-lg p-6">
+                    <h2 class="text-center text-2xl font-bold mb-6">MatoNet Download</h2>
     <p class="text-center mb-8">matonet.version1.2</p>
+    <p class="text-center mb-8">Stable Downloads are available for all platforms.</p>
                     <div class="flex justify-center space-x-4">
-                        <a href="#" class="flex items-center px-6 py-2 bg-gray-200 rounded-full hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50">
+                        <a href="#" class="flex items-center px-6 py-2 bg-gray-200 rounded-full hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50">
                             <img src="..//images/windows.png" alt="Windows" class="h-7 w-7 mr-2 ">
                             <span class="text-gray-700">Windows</span>
                         </a>
-                        <a href="#" class="flex items-center px-6 py-2 bg-gray-200 rounded-full hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50">
+                        <a href="#" class="flex items-center px-6 py-2 bg-gray-200 rounded-full hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50">
                             <img src="..//images/linux.png" alt="apple" class="h-7 w-7 mr-2 ">
                             <span class="text-gray-700">Linux</span>
                         </a>
-                        <a href="#" class="flex items-center px-6 py-2 bg-gray-200 rounded-full hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50">
+                        <a href="#" class="flex items-center px-6 py-2 bg-gray-200 rounded-full hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50">
                             <img src="..//images/apple.png" alt="apple" class="h-7 w-7 mr-2 ">
                             <span class="text-gray-700">Mac</span>
                         </a>
@@ -91,7 +124,7 @@
 </body>
 <style>
     .icon-bg {
-      background-color: #f3f4f6; /* Light gray background */
+      background-color: #2e2e2e; /* Light gray background */
       border-radius: 0.5rem; /* Rounded corners */
       transition: transform 0.2s; /* Smooth transition for hover effect */
     }
@@ -103,6 +136,7 @@
   </style>
   </head>
   <body class="bg-gray-500 text-gray-800">
+    <!-- social links -->
   <div class="flex justify-center space-x-4 p-4">
       <!-- Home Icon -->
       <div class="icon-bg p-2">
@@ -129,25 +163,31 @@
           <img src="../images/youtube.png" alt="Play" class="h-12 w-12 hover:opacity-75">
       </div>
   </div>
-  <div class="bg-red-600 text-white py-8 px-4">
-    <h2 class="text-center text-3xl font-bold mb-6">MatoNet Desktop</h2>
-    <p class="text-center mb-8">matonet.version1.2</p>
-    <div class="flex justify-center gap-4">
-      <!-- Windows Download Button -->
-      <a href="/downloads/windows" class="bg-black bg-opacity-20 hover:bg-opacity-40 rounded-full px-6 py-2 flex items-center space-x-2">
-        <img src="/path/to/windows-logo.png" alt="Windows" class="h-6 w-6">
-        <span>windows</span>
-      </a>
-      <!-- Linux Download Button -->
-      <a href="/downloads/linux" class="bg-black bg-opacity-20 hover:bg-opacity-40 rounded-full px-6 py-2 flex items-center space-x-2">
-        <img src="images/.png" alt="Linux" class="h-6 w-6">
-        <span>linux</span>
-      </a>
-      <!-- macOS Download Button -->
-      <a href="/downloads/macos" class="bg-black bg-opacity-20 hover:bg-opacity-40 rounded-full px-6 py-2 flex items-center space-x-2">
-        <img src="/path/to/macos-logo.png" alt="macOS" class="h-6 w-6">
-        <span>macos</span>
-      </a>
-    </div>
-  </div>
-</html>
+<div>
+
+  
+
+
+<style>
+    .footer-container {
+      max-width: 1200px;
+      margin: auto;
+    }
+  </style>
+  </head>
+  <body class="bg-[#2e2e2e]">
+    <footer class="bg-[#2e2e2e] border-t border-gray-400 py-4">
+      <div class="footer-container flex items-center justify-between px-4">
+        <div>
+          <p class="text-xl text-gray-200 font-semibold">Mato Footer</p>
+          <p class="text-sm text-gray-300">2024 bitmato LLC All rights reserved</p>
+          <p class="text-xs text-gray-500">all projects brand names and logos are property of their respective owners</p>
+        </div>
+        <div class="flex items-center">
+          <img src="../images/apple.png" alt="Logo" class="h-12 w-10 object-cover">
+        </div>
+      </div>
+    </footer>
+  </body>
+  </html>
+
